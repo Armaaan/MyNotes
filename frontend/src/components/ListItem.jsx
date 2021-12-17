@@ -31,7 +31,7 @@ const ListItem = ({ note }) => {
       <div className="notes-list-item">
         <h3>{getTitle(note)}</h3>
         <p>
-          <span>{getTime(note)}</span>
+          <span>{getTime(note)}</span> <br></br>
           <span>{getContent(note)}</span>
         </p>
       </div>
